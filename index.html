@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="myjs.js" defer></script>
+  <title>Fake Store API - Produtos</title>
+</head>
+<body>
+  <h1>Produtos da Loja</h1>
+
+  <form>
+    <input type="text" id="idBusca" placeholder="Identificador">
+    <button type="button" id="btn">Mostrar próximo produto</button>
+  </form>
+  
+  <ul id="product-list"></ul>
+
+  <h2>Adicionar novo produto</h2>
+  <form id="product-form">
+    <input type="text" id="title" placeholder="Nome do produto" required />
+    <textarea id="description" placeholder="Descrição" required></textarea>
+    <input type="number" id="price" placeholder="Preço" required />
+    <input type="text" id="category" placeholder="Categoria" required />
+    <button type="submit">Salvar produto</button>
+  </form>
+</body>
+</html>
